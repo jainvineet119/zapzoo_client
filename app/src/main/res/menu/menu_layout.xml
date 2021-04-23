@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@id/Home"
+            android:icon="@drawable/home"
+            android:title="Home"></item>
+        <item
+            android:id="@id/orderHistory_Fragment"
+            android:icon="@drawable/order_history"
+            android:title="Order History"></item>
+         <item
+            android:id="@id/favOrder_Fragment"
+            android:icon="@drawable/favorite"
+            android:title="Favorite Orders"></item>
+        <item
+            android:id="@id/ZZCredit_Fragment"
+            android:icon="@drawable/z_credit"
+            android:title="ZZ Credits"></item>
+        <item
+            android:id="@id/notification_Fragment"
+            android:icon="@drawable/notifications_paused"
+            android:title="Notifications"></item>
+
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"></item>
+        <item
+            android:id="@+id/My_Address"
+            android:icon="@drawable/my_address"
+            android:title="My Address"></item>
+        <item
+            android:id="@+id/Login"
+            android:icon="@drawable/login"
+            android:title="Login"></item>
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"></item>
+
+        <item
+            android:id="@+id/FAQ"
+            android:icon="@drawable/info"
+            android:title="FAQ"></item>
+        <item
+            android:id="@+id/Rate_Us"
+            android:icon="@drawable/rate_us"
+            android:title="Rate Us"></item>
+        <item
+            android:id="@+id/Feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback"></item>
+        <item
+            android:id="@+id/Share"
+            android:icon="@drawable/share"
+            android:title="Share"></item>
+        <item
+            android:id="@+id/About_Us"
+            android:icon="@drawable/about_us"
+            android:title="About Us"></item>
+    </group>
+</menu>

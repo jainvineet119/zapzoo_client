@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Zap Zoo</string>
+    <string name="ss_heading">ZAP ZOO</string>
+    <string name="ss_desc">Simplifying your nearby shopping</string>
+    <string name="powered_by">By M&amp;D Group and Co.</string>
+
+    <!--Titles-->
+    <string name="first_slide_title">Choose Product</string>
+    <string name="second_slide_title">Add To Your Cart</string>
+    <string name="third_slide_title">Easy Payment</string>
+    <string name="fourth_slide_title">Fast Delivery</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Choose variety of products from shops near you and from your comfort zone.</string>
+    <string name="second_slide_desc">Add various items from multiple shops to your cart for easy checkout.</string>
+    <string name="third_slide_desc">Easy payment from all various payment options for your order.</string>
+    <string name="fourth_slide_desc">Zap Zoo delivery at your doorstep. Super Fast and Totally Safe.</string>
+
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signupmsg">Login to Continue !</string>
+</resources>

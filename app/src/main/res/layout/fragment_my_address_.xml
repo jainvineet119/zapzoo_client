@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drawer.MyAddress_Fragment"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textStyle="bold"
+        android:text="Your Current Address is :- "
+        />
+
+    <TextView
+        android:id="@+id/myaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="My Address"
+        android:background="@drawable/blackround"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/changeAddressBtn"
+        android:fontFamily="@font/lemonmilklight"
+        android:textSize="18sp"
+        android:text="Change Address"
+        android:background="@drawable/roundcorner"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        ></Button>
+
+</LinearLayout>

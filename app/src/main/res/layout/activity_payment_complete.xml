@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentComplete"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Payment Successful"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:textAlignment="gravity"
+            android:gravity="center|center_vertical"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightsky"
+        >
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="80dp"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="50dp"
+        app:cardCornerRadius="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/tick"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tick"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                />
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payment Successful"
+                android:fontFamily="@font/rubikregular"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_below="@+id/tick"
+                android:textAlignment="center"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/lightGreen"
+                />
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order Placed !!!"
+                android:fontFamily="@font/rubikregular"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:layout_below="@+id/tv1"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/lightGreen"
+                />
+            <Button
+                android:id="@+id/shoppingBtn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:text="Continue Shopping"
+                android:fontFamily="@font/rubikregular"
+                android:textColor="#ffffff"
+                android:background="@drawable/csbg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>

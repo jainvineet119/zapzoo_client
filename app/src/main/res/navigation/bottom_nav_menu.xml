@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_menu"
+    app:startDestination="@id/Home">
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.example.v4u.bottom.Home_Fragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_" />
+    <fragment
+        android:id="@+id/search_Fragment"
+        android:name="com.example.v4u.bottom.Search_Fragment"
+        android:label="Zap Zoo"
+        tools:layout="@layout/fragment_search_" />
+    <fragment
+        android:id="@+id/offers_Fragment"
+        android:name="com.example.v4u.bottom.Offers_Fragment"
+        android:label="Offers"
+        tools:layout="@layout/fragment_offers_" />
+    <fragment
+        android:id="@+id/category_Fragment"
+        android:name="com.example.v4u.bottom.Category_Fragment"
+        android:label="Category"
+        tools:layout="@layout/fragment_category_" />
+    <fragment
+        android:id="@+id/cart_Fragment"
+        android:name="com.example.v4u.bottom.Cart_Fragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart_" />
+
+
+
+   <fragment
+        android:id="@+id/favOrder_Fragment"
+        android:name="com.example.v4u.drawer.FavOrder_Fragment"
+        android:label="Favorite Order"
+        tools:layout="@layout/fragment_fav_order_" />
+    <fragment
+        android:id="@+id/notification_Fragment"
+        android:name="com.example.v4u.drawer.Notification_Fragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification_" />
+    <fragment
+        android:id="@+id/orderHistory_Fragment"
+        android:name="com.example.v4u.drawer.OrderHistory_Fragment"
+        android:label="Order History"
+        tools:layout="@layout/fragment_order_history_" />
+    <fragment
+        android:id="@+id/ZZCredit_Fragment"
+        android:name="com.example.v4u.drawer.ZZCredit_Fragment"
+        android:label="ZZ Credit"
+        tools:layout="@layout/fragment_z_z_credit_" />
+
+
+    <fragment
+        android:id="@+id/Profile"
+        android:name="com.example.v4u.drawer.Profile_Fragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_" />
+    <fragment
+        android:id="@+id/My_Address"
+        android:name="com.example.v4u.drawer.MyAddress_Fragment"
+        android:label="My Address"
+        tools:layout="@layout/fragment_my_address_" />
+    <fragment
+        android:id="@+id/Login"
+        android:name="com.example.v4u.drawer.Login_Fragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login_" />
+    <fragment
+        android:id="@+id/Logout"
+        android:name="com.example.v4u.drawer.Logout_Fragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout_" />
+
+
+    <fragment
+        android:id="@+id/FAQ"
+        android:name="com.example.v4u.drawer.FAQ_Fragment"
+        android:label="FAQ's"
+        tools:layout="@layout/fragment_f_a_q_" />
+    <fragment
+        android:id="@+id/Rate_Us"
+        android:name="com.example.v4u.drawer.RateUs_Fragment"
+        android:label="Rate Us"
+        tools:layout="@layout/fragment_rate_us_" />
+    <fragment
+        android:id="@+id/Feedback"
+        android:name="com.example.v4u.drawer.Feedback_Fragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback_" />
+    <fragment
+        android:id="@+id/Share"
+        android:name="com.example.v4u.drawer.Share_Fragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share_" />
+    <fragment
+        android:id="@+id/About_Us"
+        android:name="com.example.v4u.drawer.AboutUs_Fragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us_" />
+
+</navigation>

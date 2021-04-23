@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".drawer.RateUs_Fragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We Highly Appreciate your Interest in ZapZoo and if you like our work and find Everything Satisfactory, Please Rate us."
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical|fill_horizontal"
+        android:fontFamily="@font/cherryswashregular"
+        android:textColor="@color/lightSkyblue"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/rateusbtn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Rate Us"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/lemonmilklight"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/aalightskyround"
+        />
+
+
+</RelativeLayout>
