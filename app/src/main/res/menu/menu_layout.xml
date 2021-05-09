@@ -10,18 +10,6 @@
             android:id="@id/orderHistory_Fragment"
             android:icon="@drawable/order_history"
             android:title="Order History"></item>
-         <item
-            android:id="@id/favOrder_Fragment"
-            android:icon="@drawable/favorite"
-            android:title="Favorite Orders"></item>
-        <item
-            android:id="@id/ZZCredit_Fragment"
-            android:icon="@drawable/z_credit"
-            android:title="ZZ Credits"></item>
-        <item
-            android:id="@id/notification_Fragment"
-            android:icon="@drawable/notifications_paused"
-            android:title="Notifications"></item>
 
         <item
             android:id="@+id/Profile"
